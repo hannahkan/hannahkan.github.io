@@ -84,7 +84,7 @@ em {
 	color: #888;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 751px) {
 	section {
 		width: 48%;
 		float: left;
@@ -97,7 +97,7 @@ em {
 	}
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 750px) {
 	section {
 		width: 100%;
 	}
