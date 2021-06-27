@@ -113,19 +113,25 @@ footer {
 	margin: 0 0 40px 0;
 }
 
-h1, h1 a:link, h1 a:visited {
+h1 {
+	font-size: 20pt;
 	margin: 0 0 10px 0;
 	color: #000;
-	border: 1px solid rgba(255,255,255,0);
-	transition: 0.3s;
+}
+
+h1 a:link, h1 a:visited {
+	color: #000;
+	border-bottom: 1px solid #eee;
 }
 
 h1 a:hover {
+	color: #000;
 	border-bottom: 1px solid #000;
 	transition: 0.3s;
 }
 
 h2 {
+	font-size: 14pt;
 	border-bottom: 1pt solid #eee;
 	padding: 0 0 8px 0;
 	margin: 0 0 15px 0;
@@ -134,6 +140,7 @@ h2 {
 }
 
 h3 {
+	font-size: 10pt;
 	text-transform: uppercase;
 	font-weight: normal;
 	margin: 5px 0 10px 0;
