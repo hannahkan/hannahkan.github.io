@@ -1,0 +1,125 @@
+/*
+* CSS by hana.ninja
+* Written for the use of hana.ninja only
+* © 2021 hana.ninja
+* license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+*/
+
+@charset "UTF-8";
+
+@font-face {
+	  font-family: "Handwriting";
+	  src: url('BellasHandwriting-Regular.ttf');
+}
+
+@font-face {
+	  font-family: "Playbook";
+	  src: url('PlayfairDisplay-VariableFont_wght.ttf'),
+		   url('PlayfairDisplay-Italic-VariableFont_wght.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('img/bg.png') fixed;
+	font-family: 'Playbook', serif;
+	font-size: 10pt;
+	letter-spacing: 0px;
+	line-height: 16pt;
+	text-transform: lowercase;
+	color: #58595B;
+	background-color: #FEC76F;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+em {
+	text-decoration: none; 
+	font-weight: normal;
+	font-style: normal;
+	color: #EF8F67;
+}
+
+main {
+	width: 60%;
+	max-width: 600px;
+	margin: auto;
+	display: block;
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 20px;
+	margin: 10% auto 10% auto;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Handwriting', sans-serif;
+	font-size: 24pt;
+	line-height: 24pt;
+	margin: 0 0 4px 0;
+	color: #58595B;
+	text-transform: lowercase;
+}
+
+a.cta {
+	display: inline-block;
+	padding: 16px;
+	width: 200px;
+	background-color: #FBAC18;
+	border-radius: 100px;
+	font-family: 'Handwriting';
+	font-size: 20pt;
+	color: #ffffff;
+	text-transform: lowercase;
+	transition: 0.3s;
+	margin: 10px auto 30px auto;
+}
+
+a.cta:hover {
+	transition: 0.3s;
+	background-color: #EF8F67;
+}
+
+a.button {
+	display: inline-block;
+	padding: 8px;
+	width: 150px;
+	background-color: #FFEFBD;
+	border-radius: 100px;
+	font-family: 'Handwriting';
+	font-size: 16pt;
+	color: #C58A61;
+	text-transform: lowercase;
+	transition: 0.3s;
+	margin: 8px;
+}
+
+a.button:hover {
+	transition: 0.3s;
+	color: #C58A61;
+	background-color: #FDDF75;
+}
+
+a.disabled {
+	display: inline-block;
+	padding: 8px;
+	width: 150px;
+	background-color: #E6E6E6;
+	border-radius: 100px;
+	font-family: 'Handwriting';
+	font-size: 16pt;
+	color: #BCBEC0;
+	text-transform: lowercase;
+	margin: 8px;
+}
+
+
