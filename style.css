@@ -93,6 +93,8 @@ em {
 	}
 	
 	.stats {
+		position: relative;
+		top: 25px;
 		margin-right: 4%;
 	}
 }
